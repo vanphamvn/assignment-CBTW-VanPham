@@ -1,0 +1,8 @@
+{
+  "createUserRequest": {
+    "name": "morpheus",
+    "job": "leader"
+  },
+  "createUserMinimalRequest": {},
+  "createUserWrongFormatRequest": "willexpect400"
+}

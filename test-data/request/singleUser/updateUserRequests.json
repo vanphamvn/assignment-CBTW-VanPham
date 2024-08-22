@@ -1,0 +1,8 @@
+{
+  "updateUserRequest": {
+    "name": "morpheus",
+    "job": "leader"
+  },
+  "updateUserMinimalRequest": {},
+  "updateUserWrongFormatRequest": "willexpect400"
+}

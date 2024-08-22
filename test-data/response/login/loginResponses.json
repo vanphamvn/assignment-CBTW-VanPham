@@ -1,0 +1,14 @@
+{
+  "loginSuccessfulResponse": {
+    "token": "QpwL5tke4Pnpja7X4"
+  },
+  "loginMissingPasswordResponse": {
+    "error": "Missing password"
+  },
+  "loginUserNotFoundResponse": {
+    "error": "user not found"
+  },
+  "loginMissingUsernameResponse": {
+    "error": "Missing email or username"
+  }
+}

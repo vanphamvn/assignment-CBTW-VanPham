@@ -1,0 +1,23 @@
+REM Cd to the root directory
+
+REM Initialize npm and install Playwright
+npm init -y
+npm i playwright --save-dev
+
+REM Create Playwright config file
+npm init playwright@latest
+REM TypeScript -> default tests folder -> github no -> install playwright browser : yes
+
+REM Create src directories
+mkdir src/utils
+mkdir src/config
+mkdir src/fixtures
+mkdir src/helpers
+
+REM Create example test, and utility files
+type nul > tests/user.spec.ts
+type nul > src/utils/apiClient.ts
+type nul > src/config/config.ts
+type nul > src/helpers/apiHelpers.ts
+
+npm install dotenv

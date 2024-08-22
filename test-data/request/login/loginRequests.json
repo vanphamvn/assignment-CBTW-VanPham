@@ -1,0 +1,20 @@
+{
+  "loginSuccessfulRequest": {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+  },
+  "loginMissingPasswordRequest": { "email": "eve.holt@reqres.in" },
+  "loginUserNotFoundRequest": {
+    "email": "eve.invalid@reqres.in",
+    "password": "123456"
+  },
+  "loginMissingUsernameRequest": {},
+  "loginSuccessfulTemplateRequest": {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+  },
+  "loginSuccessfulMemberRequest": {
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+  }
+}
